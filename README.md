@@ -50,7 +50,7 @@ The command downloads the build from [Releases](https://github.com/tracksidehq/t
 
 Two things to know before you run it:
 
-- **The demo asks you to sign in with a demo account, and accounts are not open yet.** Until they are, the app stops at the sign-in screen. Join the waitlist on the [website](https://tracksidehq.dev) to get one email when accounts open.
+- **The demo asks you to sign in with a demo account.** Create one on the [account page](https://tracksidehq.dev/account.html): you confirm your email, and then sign in inside the app with that email and password. After that the demo works offline until the access expires.
 - **The app is not notarized by Apple.** That is why it is installed from the Terminal: a copy downloaded with the browser is blocked by macOS when it is opened.
 
 **If Trackside looks useful to you, a star on this repository helps other developers find it.** It is an invitation, not a condition: nothing here is unlocked by a star.
