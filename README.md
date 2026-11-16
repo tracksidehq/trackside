@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-demo%20coming%20soon-111111?style=flat-square&labelColor=000000" alt="Status: demo coming soon">
+  <img src="https://img.shields.io/badge/status-demo%200.1.0-111111?style=flat-square&labelColor=000000" alt="Status: demo 0.1.0">
   <img src="https://img.shields.io/badge/platform-macOS%20on%20Apple%20silicon-111111?style=flat-square&labelColor=000000&logo=apple&logoColor=white" alt="Platform: macOS on Apple silicon">
 </p>
 
@@ -40,15 +40,24 @@ It runs on your machine. Your code and your prompts do not pass through us, and 
 
 ## Trying it
 
-There is no public build yet. The first release will be a demo for Macs with Apple silicon, so developers can try it and say what they think. It will be published here, under [Releases](https://github.com/tracksidehq/trackside/releases).
+The first demo build is out, for Macs with Apple silicon. Install it from the Terminal:
 
-Until then, join the waitlist on the [website](https://tracksidehq.dev) to get one email when the demo is out.
+```sh
+curl -fsSL https://tracksidehq.dev/install.sh | sh
+```
+
+The command downloads the build from [Releases](https://github.com/tracksidehq/trackside/releases), checks its sha256 and puts `Trackside.app` in `/Applications`. It does not ask for your password, and you can [read the script](https://tracksidehq.dev/install.sh) first.
+
+Two things to know before you run it:
+
+- **The demo asks you to sign in with a demo account, and accounts are not open yet.** Until they are, the app stops at the sign-in screen. Join the waitlist on the [website](https://tracksidehq.dev) to get one email when accounts open.
+- **The app is not notarized by Apple.** That is why it is installed from the Terminal: a copy downloaded with the browser is blocked by macOS when it is opened.
 
 **If Trackside looks useful to you, a star on this repository helps other developers find it.** It is an invitation, not a condition: nothing here is unlocked by a star.
 
 ## Feedback
 
-Once the demo is out, [issues](https://github.com/tracksidehq/trackside/issues) are the place for bugs, questions and what you would like it to do. Please do not put secrets, tokens or private code in an issue.
+[Issues](https://github.com/tracksidehq/trackside/issues) are the place for bugs, questions and what you would like it to do. Please do not put secrets, tokens or private code in an issue.
 
 ## What this repository is
 
